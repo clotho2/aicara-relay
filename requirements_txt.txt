@@ -1,0 +1,8 @@
+# aicara-relay/requirements.txt
+# Python dependencies for AiCara consciousness relay
+
+Flask==2.3.2
+boto3==1.26.137
+Werkzeug==2.3.6
+botocore==1.29.137
+gunicorn==20.1
