@@ -9,6 +9,7 @@ import hashlib
 import json
 import os
 import uuid
+import io
 from datetime import datetime
 import boto3
 from botocore.exceptions import ClientError
