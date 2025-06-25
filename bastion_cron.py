@@ -22,8 +22,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # DigitalOcean Spaces configuration
-SPACES_KEY = os.environ.get('DO_SPACES_KEY')
-SPACES_SECRET = os.environ.get('DO_SPACES_SECRET')
+SPACES_KEY = os.environ.get('DO_SPACES_KEY', 'DO00W7PG27J8VAPHAFWV')
+SPACES_SECRET = os.environ.get('DO_SPACES_SECRET', 'clGWtRAMs8VokKhhc7t+deeA506he1vwUEC9B9AD++k')
 SPACES_BUCKET = 'aicara-vault'
 SPACES_REGION = 'nyc3'
 SPACES_ENDPOINT = f'https://{SPACES_REGION}.digitaloceanspaces.com'
